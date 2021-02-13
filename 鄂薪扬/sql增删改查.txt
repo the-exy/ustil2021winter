@@ -1,0 +1,16 @@
+// 数据是num sex name
+//增
+insert into student
+values(123,"男","张三")
+//删
+delete from student
+where num=123;
+truncate student//清空
+//改
+update student
+set sex="男"
+where sex="男" and num=123;
+//查
+select*
+from studetnt
+where num=123 and name="张三";
